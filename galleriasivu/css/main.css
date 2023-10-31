@@ -257,11 +257,11 @@ h3 {
 
 li {
     list-style-type: none;
-    /* Tällä saa listan pallerot pois*/
+    /* Tällä saa poistettua listan pallukat!*/
 }
 
 body.secondary-color {
-    /*tällä muotoillaan koko sivu, jotta aside menee sivulle*/
+    /*Tällä muotoillaan koko sivu, jotta aside menee sivulle.*/
     display: flex;
     flex-wrap: wrap;
 }
