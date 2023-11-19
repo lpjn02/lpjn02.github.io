@@ -56,7 +56,9 @@ header h1 {
 
 	/*Voit halutessasi myös esim. keskittää otsikon (text-align: center;)*/
 
-	font-size: 20px;
+	font-size: 50px;
+	color: blue;
+	text-align: center;
 }
 
 /*--------- MAIN MENU ---------------------*/
