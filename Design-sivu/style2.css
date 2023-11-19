@@ -15,7 +15,7 @@
 html { 
 	/*koko sivun tausta on valkoinen.
 	Muuta haluamaksesi*/
-	background: white; 
+	background-image: linear-gradient(to right top, #4076c8, #7084c4, #8f94c0, #a7a6bc, #b9b9b9);
 
 	/*Jos määrität html-tagissa fontteja, 
 	taustavärejä tai tekstin värejä,
@@ -37,8 +37,9 @@ body {
 	/*Tällä koodilla voit tehdä niin, että yli 900px
 	leveässä näytössä body-tagi jää vain 900px leveäksi,
 	ja reunoille jää tyhjää. Voit muuttaa tätä miten haluat.*/
-	max-width: 900px;
+	max-width: 1100px;
 	margin: auto; /*tämä keskittää body-tagin sivusuunnassa*/
+	background-image: linear-gradient(to right top, #728fbb, #887fba, #a769a7, #bf5183, #c64052);
 
 }
 
@@ -57,7 +58,6 @@ header h1 {
 	/*Voit halutessasi myös esim. keskittää otsikon (text-align: center;)*/
 
 	font-size: 50px;
-	color: blue;
 	text-align: center;
 }
 
@@ -67,7 +67,7 @@ header h1 {
 #main-menu { 
 	list-style-type: none; 
 	
-	/*Voit tehdä tästä flexboxin, 
+	/*Voit tehdä tästä flexboxin,
 	niin valikon napit menevät vierekkäin*/
 
 	/*Laita tässä ja marginaalit paddingit paremmin, 
@@ -156,6 +156,7 @@ main {
 	jolloin artikkelit asettuvat vierekkäin.*/
 	
 	display: flex; flex-wrap:wrap; justify-content: center;
+	background-image: linear-gradient(to right top, #91aeda, #a9a4d6, #c199c7, #d48fb0, #dc8994);
 }
 
 /*Frame of each "article"*/
