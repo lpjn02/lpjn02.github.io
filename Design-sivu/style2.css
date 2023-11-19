@@ -37,6 +37,8 @@ body {
 	/*Tällä koodilla voit tehdä niin, että yli 900px
 	leveässä näytössä body-tagi jää vain 900px leveäksi,
 	ja reunoille jää tyhjää. Voit muuttaa tätä miten haluat.*/
+
+	display: flex; flex-wrap: wrap; justify-content: center;
 	max-width: 1300px;
 	margin: auto; /*tämä keskittää body-tagin sivusuunnassa*/
 	background-image: linear-gradient(to right top, #728fbb, #887fba, #a769a7, #bf5183, #c64052);
@@ -60,7 +62,7 @@ header h1 {
 	text-align: center;
 	text-wrap: wrap;
 	margin-top: 4%;
-	text
+	padding-top: 1px;
 }
 
 /*--------- MAIN MENU ---------------------*/
@@ -76,10 +78,10 @@ header h1 {
 	niin näyttää tyylikkäämmältä */
 	
 	/*Voi muokata täällä myös background-, color-arvoja.*/
-		
-	margin-bottom: 4%;
-	margin-left: 14px;
-	margin-right: 5px;
+	
+	display: flex; flex-wrap:wrap; justify-content: center;
+	margin-bottom: 5%;
+
 }
 
 /*Menu item*/
@@ -89,8 +91,10 @@ header h1 {
 
 	/*Voi muokata täällä myös background-, color-arvoja.*/
 
-	margin: 6px;
-	padding-left: 45px;
+	margin: 10px;
+	text-align: center;
+	padding-right: 13px;
+
 }
 
 /*Link in menu item*/
@@ -101,6 +105,15 @@ header h1 {
 	/*Voi muokata täällä myös background-, color- 
 	font-size- ja font-family-arvoja.*/
 
+	font-size: larger;
+	display: block;
+	align-items: center;
+	background-color: #dbb297;
+	border-radius: 15px;
+	height: 70px;
+	width: 220px;
+	display: flex; flex-wrap: wrap; justify-content: center;
+	font-size: x-large;
 }
 
 /*Menu item when mouse over*/
@@ -109,7 +122,9 @@ header h1 {
 	/*Tässä määritellään, miltä valikon linkki näyttää, 
 	kun kursori on sen päällä. Muuta paremmaksi */
 	color: rgb(144, 197, 151); 
-	background: rgb(77, 142, 161); 
+	background: rgb(77, 142, 161);
+	border-radius: 15px;
+
 }
 
 /*------- ARTICLE BUTTONS -------------------*/
@@ -136,19 +151,27 @@ header h1 {
 		box-shadow: 0px 2px 10px rgba(0,0,0,50%); 
 	*/
 
-
+	display: block;
+	background-color: #dbb297;
+	border-radius: 15px;
+	height: 33px;
+	width: 220px;
+	display: flex; flex-wrap: wrap; justify-content: center;
+	font-size: x-large;
+	margin-left: 45px;
 }
 
 /*Button when mouse over*/
 .button:hover { 
 	/*Tässä määritellään, nappi näyttää, 
 	kun kursori on sen päällä. Muuta paremmaksi */
-	color: red; 
-	background: yellow; 
+	color: rgb(144, 197, 151); 
+	background: rgb(77, 142, 161);
 	
 	/*Voit halutessasi laittaa vaikka koko 
 	artikkelin muuttumaan jotenkin hiukan, 
 	kun sen päällä on kursori.. :) */
+	
 }
 
 
@@ -187,6 +210,7 @@ article {
 	padding: 1%;
 	margin-top: 2%;
 	margin-bottom: 2%;
+	text-align: center;
 }
 
 
@@ -203,7 +227,8 @@ article h2 {
 	background-, color-, margin- ja padding-
 	font-size- ja font-family-arvoja.*/
 
-	font-size:x-large
+	font-size: x-large;
+	text-align: center;
 
 }
 
@@ -215,8 +240,10 @@ article p {
 	background-, color-, margin- ja padding-
 	font-size- ja font-family-arvoja.*/
 
-	padding-top: 10px;
+	padding-top: 15px;
 	font-size: large;
+	text-align: center;
+	line-height: 30px;
 
 }
 
@@ -240,7 +267,6 @@ footer {
 	ja ehkä eri taustaväri, jotta se erottuu hiukan.*/
 	
 	padding: 2%;
-	margin-left: 50px;
 	text-align: center;
+	max-height: 5%;
 }
-
