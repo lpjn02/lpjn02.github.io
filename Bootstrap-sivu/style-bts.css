@@ -1,21 +1,11 @@
 
 
-
- /*----------------------------*/
- /*                            */
- /*  EDIT THIS FILE TO APPLY   */
- /*  YOUR DESIRED STYLE!       */
- /*                            */
- /*----------------------------*/
-
-
-
 /*--------- BACKGROUND ---------------------*/
 
 html { 
 	/*koko sivun tausta on valkoinen.
 	Muuta haluamaksesi*/
-	background-image: linear-gradient(to right top, #4076c8, #7084c4, #8f94c0, #a7a6bc, #b9b9b9);
+	background-image: linear-gradient white
 
 	/*Jos määrität html-tagissa fontteja, 
 	taustavärejä tai tekstin värejä,
@@ -65,91 +55,10 @@ header h1 {
 	padding-top: 1px;
 }
 
-/*--------- MAIN MENU ---------------------*/
-
-/*Menu*/
-#main-menu { 
-	list-style-type: none;
-	
-	/*Voit tehdä tästä flexboxin,
-	niin valikon napit menevät vierekkäin*/
-
-	/*Laita tässä ja marginaalit paddingit paremmin, 
-	niin näyttää tyylikkäämmältä */
-	
-	/*Voi muokata täällä myös background-, color-arvoja.*/
-	
-	display: flex; flex-wrap:wrap; justify-content: center;
-	margin-bottom: 5%;
-
-}
-
-/*Menu item*/
-#main-menu li {
-	/*Laita tässä ja marginaalit paddingit paremmin, 
-	niin näyttää tyylikkäämmältä */
-
-	/*Voi muokata täällä myös background-, color-arvoja.*/
-
-	margin: 10px;
-	text-align: center;
-	padding-right: 13px;
-
-}
-
-/*Link in menu item*/
-#main-menu a { 
-
-	text-decoration: none; /*poistaa linkin alleviivauksen*/
-
-	/*Voi muokata täällä myös background-, color- 
-	font-size- ja font-family-arvoja.*/
-
-	font-size: larger;
-	display: block;
-	align-items: center;
-	background-color: #dbb297;
-	border-radius: 15px;
-	height: 70px;
-	width: 220px;
-	display: flex; flex-wrap: wrap; justify-content: center;
-	font-size: x-large;
-}
-
-/*Menu item when mouse over*/
-#main-menu a:hover { 
-	
-	/*Tässä määritellään, miltä valikon linkki näyttää, 
-	kun kursori on sen päällä. Muuta paremmaksi */
-	color: rgb(144, 197, 151); 
-	background: rgb(77, 142, 161);
-	border-radius: 15px;
-
-}
-
 /*------- ARTICLE BUTTONS -------------------*/
 /*Button in end of each article*/
 .button { 
-	/*saatat haluta tehdä napista aika samanlaisen
-	kuin valikkolinkit, mutta toisenlainenkin 
-	voi olla ihan tyylikäs*/
 
-	/*Voi muokata täällä myös background-, color- 
-	font-size- ja font-family-arvoja.*/
-	
-	/*Tämä on a-elementti, ja se on oletuksena 
-		display: inline; 
-	Siksi sen kokoa tai paikkaa ym. ei voi muuttaa.
-	Jotta nappia on helpompi käsitellä, voi muuttaa sen 
-		display: block;
-		
-	Ymmärtääksesi paremmin mitä on block ja inline ym., 
-	katso tämä video: https://www.youtube.com/watch?v=9T8uxp5hQ60	
-	*/
-
-	/*Tällä koodilla saat fancyn varjon :) 
-		box-shadow: 0px 2px 10px rgba(0,0,0,50%); 
-	*/
 
 	display: block;
 	background-color: #dbb297;
