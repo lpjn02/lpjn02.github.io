@@ -8,8 +8,8 @@ body {
 
 .container {
     float: left;
-    display: flexbox;
-    padding-left: 120px;
+    display: flex;
+    padding-left: 180px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -20,12 +20,23 @@ body {
 }
 
 h1 {
-    vertical-align: center;
-    font-size: 35px;
+    padding-left: left;
+    margin-top: center;
+    font-size: 45px;
+    text-align: left;
+    border: none;
+    padding: 8px 25px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 1.25rem;
+    font-family: 'Inter';
+    color: white;
+    background-color: #0059a2;
 }
 
 header {
-    background: rgb(85, 197, 214);
+    background-image: url("rajamäki_banner.jpg");
 }
 
 header::after {
@@ -36,32 +47,117 @@ header::after {
 
 nav {
     float: right;
+    display: flex;
+    float: right;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3%;
 }
 
 nav ul {
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
     list-style: none;
     text-decoration: none;
+    justify-content: center;
+    font-family: 'Inter';
 }
 
 nav li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     display: inline-block;
-    padding-right: 120px;
-    padding-top: 33px;
+    margin-top: 0px;
+    margin-left: -130px;
+    padding-right: 180px;
     position: relative;
+    justify-content: center;
 }
 
 nav a {
-    color: black;
+    display: flex;
+    border: none;
+    padding: 8px 25px;
+    color: #fff;
+    font-size: 20px;
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 22px;
+    cursor: pointer;
+    border-radius: 1.25rem;
+    background-color: #0059a2;
 }
 
 /* SIVUN PÄÄOSA */
 
+article {
+    padding-top: 20px;
+}
+
 main {
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1.25rem;
+    background-color: #0059a2;
+}
+
+h3 {
+    display: block;
+    padding-top: 140px;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+}
+
+ins {
+    display: block;
+    float: left;
+    margin-right: auto;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+article ul {
+    display: block;
+    float: left;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 350px;
+    margin-top: 40px;
+}
+
+article li {
+}
+
+.rajamäki_kartalla {
+    display: solid;
+}
+
+aside {
+    padding-top: 20px;
+}
+
+/* FOOTER-TAGI */
+
+footer {
+    text-align: center;
 }
