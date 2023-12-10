@@ -1,12 +1,18 @@
 main {
     padding-left: 1%;
     padding-right: 1%;
+    background: rgb(172, 172, 172);
+    background: linear-gradient(90deg, rgba(172, 172, 172, 1) 0%, rgba(181, 181, 181, 1) 54%, rgba(154, 216, 251, 1) 100%);
+}
+
+.navbar {
+    background-image: url(rajamäki_banner.jpg);
 }
 
 strong {
     padding-left: left;
     margin-top: center;
-    font-size: 45px;
+    font-size: 46px;
     text-align: left;
     border: none;
     padding: 8px 25px;
@@ -16,7 +22,7 @@ strong {
     border-radius: 1.25rem;
     font-family: 'Afacad';
     color: white;
-    background-color: #0059a2;
+    background-color: #125696;
     box-shadow: 10px 5px 5px black;
     font-family: 'Afacad';
 }
@@ -26,15 +32,28 @@ article {
     padding-right: 5%;
     padding-bottom: 2%;
     padding-top: 3%;
-    background: rgb(172,172,172);
-    background: linear-gradient(90deg, rgba(172,172,172,1) 0%, rgba(181,181,181,1) 54%, rgba(154,216,251,1) 100%);
+    background: rgb(172, 172, 172);
+    background: linear-gradient(90deg, rgba(172, 172, 172, 1) 0%, rgba(181, 181, 181, 1) 54%, rgba(154, 216, 251, 1) 100%);
 }
 
 h1 {
     align-items: center;
     padding-bottom: 1%;
     font-family: 'Afacad';
-    font-size: 34px;
+    font-size: 39px;
+    align-items: center;
+    border: none;
+    padding: 7px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 20px;
+    border-radius: 1.25rem;
+    background-color: #125696;
+}
+
+h1 {
+    color: white;
 }
 
 nav {
@@ -42,6 +61,7 @@ nav {
     padding-bottom: 1%;
     font-family: 'Afacad';
     font-size: 22px;
+    padding-left: 20px;
 }
 
 h2 {
@@ -50,10 +70,6 @@ h2 {
     padding-bottom: 3%;
     font-family: 'Afacad';
     font-size: 35%;
-}
-
-footer {
-    padding-top: 2%;
 }
 
 h3 {
@@ -67,17 +83,20 @@ aside {
     background-color: beige;
 }
 
-ul {
+li {
+    display: wrap;
+    position: relative;
     align-items: center;
     border: none;
-    padding: 8px 25px;
+    padding: 7px 25px;
     color: #fff;
-    font-size: 20px;
+    font-size: 17px;
     text-decoration: none;
     cursor: pointer;
-    padding-left: 10px;
+    padding-left: 20px;
+    margin-left: 20px;
     border-radius: 1.25rem;
-    background-color: #0059a2;
+    background-color: #125696;
 }
 
 button {
@@ -95,4 +114,13 @@ a {
 p {
     font-size: 21px;
     font-family: 'Poppins';
+}
+
+section {
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 2%;
+    background: rgb(172, 172, 172);
+    background: linear-gradient(90deg, rgba(172, 172, 172, 1) 0%, rgba(181, 181, 181, 1) 54%, rgba(154, 216, 251, 1) 100%);
+    background-color: #125696;
 }
