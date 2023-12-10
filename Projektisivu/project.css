@@ -2,8 +2,8 @@
 
 body {
     margin: 0;
-    background: rgb(114,114,115);
-    background: linear-gradient(90deg, rgba(114,114,115,1) 0%, rgba(217,217,217,1) 54%, rgba(154,216,251,1) 100%);
+    background: rgb(172,172,172);
+    background: linear-gradient(90deg, rgba(172,172,172,1) 0%, rgba(181,181,181,1) 54%, rgba(154,216,251,1) 100%);
     font-family: Calibri, sans-serif;
 }
 
@@ -157,13 +157,14 @@ h5 {
 p {
     text-align: left;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 22px;
+    color: #000000;
 }
 
 li {
     text-align: left;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 ins {
@@ -295,6 +296,32 @@ div a {
     border-radius: 1.25rem;
     background-color: #0059a2;
     box-shadow: 10px 5px 5px black;
+}
+
+ol li {
+    font-size: 40px;
+}
+
+article ol li section {
+    background-color: #4E708F;
+    padding: 8px 18px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 1.25rem;
+    margin-top: 20px;
+}
+
+article ol li p {
+    color: #ececec;
+
+}
+
+article ol li h4 {
+    color: #ececec;
+}
+
+article ol li h5 {
+    color: #ececec;
 }
 
 /* FOOTER-TAGI */
